@@ -1,2 +1,85 @@
-<script src='build/main.bundle.js'></script>
-hello world
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Virtual Keyboard Game</title>
+
+    <style>
+            .uuuu{
+                padding : 10px  ;
+                border-radius: 8px; 
+                background-color :orange;
+            }
+        </style>
+        <h1 style="text-align : center">Virtual Keyboard</h1>
+    </head>
+    
+    <body style="background-color :gray">
+    
+    
+        <p style="text-align : center">
+            <textarea id="output" rows="5" cols="50"></textarea><br><br><br>
+            <button class="uuuu" onclick="clickja('~')">~</button>
+            <button class="uuuu" onclick="clickja('1')">1</button>
+            <button class="uuuu" onclick="clickja('2')">2</button>
+            <button class="uuuu" onclick="clickja('3')">3</button>
+            <button class="uuuu" onclick="clickja('4')">4</button>
+            <button class="uuuu" onclick="clickja('5')">5</button>
+            <button class="uuuu" onclick="clickja('6')">6</button>
+            <button class="uuuu" onclick="clickja('7')">7</button>
+            <button class="uuuu" onclick="clickja('8')">8</button>
+            <button class="uuuu" onclick="clickja('9')">9</button>
+            <button class="uuuu" onclick="clickja('0')">0</button>
+            <button class="uuuu" onclick="clickja('-')">-</button>
+            <button class="uuuu" onclick="clickja('=')">=</button>
+            <button class="uuuu" onclick="backspace()">Backspace</button><br>
+            <button class="uuuu" onclick="clickja('Tab')">Tab</button>
+            <button class="uuuu" onclick="clickja('q')">q</button>
+            <button class="uuuu" onclick="clickja('w')">w</button>
+            <button class="uuuu" onclick="clickja('e')">e</button>
+            <button class="uuuu" onclick="clickja('r')">r</button>
+            <button class="uuuu" onclick="clickja('t')">t</button>
+            <button class="uuuu" onclick="clickja('y')">y</button>
+            <button class="uuuu" onclick="clickja('u')">u</button>
+            <button class="uuuu" onclick="clickja('i')">i</button>
+            <button class="uuuu" onclick="clickja('o')">o</button>
+            <button class="uuuu" onclick="clickja('p')">p</button>
+            <button class="uuuu" onclick="clickja('[')">[</button>
+            <button class="uuuu" onclick="clickja(']')">]</button>
+            <button class="uuuu" onclick="clickja('\\')">\</button><br>
+            <button class="uuuu" onclick="clickja()">CapsLock</button>
+            <button class="uuuu" onclick="clickja('a')">a</button>
+            <button class="uuuu" onclick="clickja('s')">s</button>
+            <button class="uuuu" onclick="clickja('d')">d</button>
+            <button class="uuuu" onclick="clickja('f')">f</button>
+            <button class="uuuu" onclick="clickja('g')">g</button>
+            <button class="uuuu" onclick="clickja('h')">h</button>
+            <button class="uuuu" onclick="clickja('j')">j</button>
+            <button class="uuuu" onclick="clickja('k')">k</button>
+            <button class="uuuu" onclick="clickja('l')">l</button>
+            <button class="uuuu" onclick="clickja(';')">;</button>
+            <button class="uuuu" onclick="clickja('\'')">'</button>
+            <button class="uuuu" onclick="entergame()">Enter</button><br>
+            <button class="uuuu" onclick="clickja()">Shift</button>
+            <button class="uuuu" onclick="clickja('z')">z</button>
+            <button class="uuuu" onclick="clickja('x')">x</button>
+            <button class="uuuu" onclick="clickja('c')">c</button>
+            <button class="uuuu" onclick="clickja('v')">v</button>
+            <button class="uuuu" onclick="clickja('b')">b</button>
+            <button class="uuuu" onclick="clickja('n')" >n</button>
+            <button class="uuuu" onclick="clickja('m')">m</button>
+            <button class="uuuu" onclick="clickja(',')">,</button>
+            <button class="uuuu" onclick="clickja('.')">.</button>
+            <button class="uuuu" onclick="clickja('/')">/</button>
+            <button class="uuuu" onclick="clickja()">Shift</button><br>
+            <button class="uuuu" style="width : 200" onclick="clickja(' ')">SpaceBar</button>
+
+            
+            </p>
+
+
+    <script src='build/main.bundle.js'></script>
+</body>
+</html>
